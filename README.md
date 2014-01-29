@@ -25,7 +25,7 @@ PROMPT_COMMAND=my_prompt
 
 And a useful alias to neaten up the output from git log
 ```
-alias 'gitprettylog=git log --pretty=format:"%h - %an, %ar : %s"'
+alias "gitprettylog=git log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
 ```
 
 Have fun!
