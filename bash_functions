@@ -1,4 +1,4 @@
-source git-completion.bash
+source ./git-completion.bash
 
 minutes_since_last_commit() {
     now=`date +%s`
